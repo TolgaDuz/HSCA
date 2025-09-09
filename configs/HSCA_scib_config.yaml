@@ -73,6 +73,13 @@ DATA_SCENARIOS:
   #  assay: expression
   #  cell_number: 97861
   #  file: data/datasets/immune_cell_human_mice.h5ad
+   #core_skin_atlas_data:
+   # batch_key: Dataset
+    #label_key: orig_celltype_lvl_3
+    #organism: human
+    #assay: expression
+    #cell_number: 250270
+    #file: data/datasets/core_before_pipeline_and_final_annotation.h5ad
    core_skin_atlas_data:
     batch_key: Dataset
     label_key: orig_celltype_lvl_3
@@ -80,4 +87,5 @@ DATA_SCENARIOS:
     assay: expression
     cell_number: 314735
     file: data/datasets/core_atlas_raw_new.h5ad
+
 
