@@ -32,6 +32,8 @@ The HSCA serves as a resource for the community by:
 - **Providing benchmarking opportunities** for organoids and in vitro models against in vivo tissue.
 - **Serving as a foundation for disease research**, enabling the study of perturbations in skin biology.
 
+![Study overview HSCA](figs/Study_overview_HSCA.png)
+
 
 *Fig. 1: Study design HSCA.*
 
