@@ -1,0 +1,83 @@
+ROOT: data
+r_env : scib-r-pipeline
+py_env : scib-py-pipeline
+
+unintegrated_metrics: false
+
+FEATURE_SELECTION:
+  hvg: 2000
+  #full_feature: 0
+
+SCALING:
+  - unscaled
+  - scaled
+
+METHODS:
+# python methods
+  bbknn:
+    output_type: knn
+  scanorama:
+    output_type:
+      - embed
+      - full
+  scvi:
+    no_scale: true
+    output_type: embed
+  scanvi:   
+    no_scale: true
+    output_type: embed
+    use_celltype: true
+
+# R methods
+  fastmnn:
+    R: true
+    output_type:
+      - embed
+      - full
+  harmony:
+    R: true
+    output_type: embed
+  seurat:
+    R: true
+    output_type: full
+  seuratrpca:
+    R: true
+    output_type: full 
+
+DATA_SCENARIOS:
+  #test_data:
+   # batch_key: batch
+   # label_key: celltype
+   # organism: mouse
+    #assay: expression
+    #cell_number: 2730
+    #file: data/datasets/adata_norm.h5ad
+ # lung_data:
+  #  batch_key: batch
+   # label_key: cell_type
+   # organism: human
+   # assay: expression
+   # cell_number: 32472
+   # file: data/datasets/lung_atlas.h5ad
+  #pancreas_data:
+   # batch_key: tech
+   # label_key: celltype
+   # organism: human
+   # assay: expression
+   # cell_number: 16382
+   # file: data/datasets/pancreas.h5ad
+  #immune_data:
+  #  batch_key: batch
+  #  label_key: final_annotation
+  #  organism: human
+  #  assay: expression
+  #  cell_number: 97861
+  #  file: data/datasets/immune_cell_human_mice.h5ad
+   core_skin_atlas_data:
+    batch_key: Dataset
+    label_key: orig_celltype_lvl_3
+    organism: human
+    assay: expression
+    cell_number: 314735
+    file: data/datasets/core_atlas_raw_new.h5ad
+
