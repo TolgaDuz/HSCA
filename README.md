@@ -64,7 +64,7 @@ The HSCA repository is organized as follows:
 
 ## Data Availability
 
-- **Processed Seurat objects** are available on [Zenodo](https://doi.org/xx.xxxx/zenodo.xxxxx).  
+- **Processed Seurat objects** are available on [Zenodo](https://doi.org/10.5281/zenodo.17088022).  
 - **Raw sequencing data** will be deposited in [GEO](https://www.ncbi.nlm.nih.gov/geo/).  
 - **Interactive exploration** of the processed data will be available via the [CellxGene browser](https://cellxgene.cziscience.com/). 
 
