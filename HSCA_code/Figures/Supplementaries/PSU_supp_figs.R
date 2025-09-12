@@ -98,9 +98,7 @@ genes <- unique(c(
   "KRT71", "KRT72", "KRT73",
   "KRT82", "PROCR", "ACTBL2",
   "SELENBP1", "KRT85", "GPNMB", "LEF1", "KRT35",
-  "VSIG8", "KRT81", "KRT83", "KRT86", "NEU2", "RNGASE",
-  "KRTAP10-2", "SCYGR4", "KRTAP12-1", "SCYGR8",
-  "TYRP1", "MLANA"
+  "VSIG8", "KRT81", "KRT83", "KRT86"
 ))
 
 p <- SCpubr::do_DotPlot(
