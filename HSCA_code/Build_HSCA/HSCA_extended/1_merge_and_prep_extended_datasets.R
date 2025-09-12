@@ -42,8 +42,7 @@ rds_files <- c(
   GSE241132 = "../Extension/GSE241132.rds",
   GSE265972 = "../Extension/GSE265972.rds",
   EGAS00001002927_2 = "../Extension/EGAS00001002927_2.rds",
-  EMTAB13084_1 = "../Extension/EMTAB13084_1.rds",
-  EMTAB13084_2 = "../Extension/EMTAB13084_2.rds"
+  EMTAB13084_1 = "../Extension/EMTAB13084_1.rds"
 )
 
 # Initialize lists for loaded objects and non-integer datasets
