@@ -43,10 +43,10 @@ The HSCA serves as a resource for the community by:
 The HSCA repository is organized as follows:
 
 - `HSCA_code/` — Code to reproduce the HSCA  
-  - `Build_HSCA/` — Scripts to build the atlas (with README)  
-  - `Figures/` — Scripts for downstream analyses and manuscript figures (with README linking scripts to figures)  
+  - `Build_HSCA/` — Scripts to build the atlas  
+  - `Figures/` — Scripts for downstream analyses and manuscript figures
 
-- `HSCA_data/` — Demo data to reproduce workflows; also contains target directories for storing processed objects during reproduction  
+- `HSCA_data/` — Directories for storing and loading processed objects when running the HSCA code scripts  
 
 - `docs/` — Supplementary tables with explanations  
 
