@@ -62,7 +62,11 @@ The HSCA repository is organized as follows:
 
 ## Mapping new datasets to HSCA
 
-Coming soon.
+We provide a vignette that demonstrates how to map novel single-cell datasets onto the HSCA reference using transfer learning.  
+
+See the vignette [new_data_mapping_HSCA_core](HSCA_code/Mapping_vignette/new_data_mapping_HSCA_core.ipynb).  
+
+The input data will be provided soon.
 
 
 ## Data Availability
