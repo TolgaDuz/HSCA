@@ -1,4 +1,4 @@
-# The Human Skin Cell Atlas
+# [The Human Skin Cell Atlas](https://doi.org/10.1101/2025.09.09.675235)
 **A comprehensive, integrated single-cell and spatial reference of healthy human skin.**
 
 
@@ -72,7 +72,7 @@ The HSCA repository is organized as follows:
 
 ## See the HSCA manuscript
 
-Düz et al., *bioRxiv* (2025) — [link to preprint](https://www.biorxiv.org/).  
+ [Düz et al.](https://doi.org/10.1101/2025.09.09.675235), *bioRxiv* (2025).  
 
 Questions or comments? We welcome contributions and discussions via the GitHub Issues page.  
 For direct inquiries, you can also reach me at: duez.tolga@gmail.com
