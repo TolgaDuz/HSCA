@@ -45,6 +45,7 @@ The HSCA repository is organized as follows:
 - `HSCA_code/` — Code to reproduce the HSCA  
   - `Build_HSCA/` — Scripts to build the atlas  
   - `Figures/` — Scripts for downstream analyses and manuscript figures
+  - `Mapping_vignette/` — Vignette on mapping new datasets onto the HSCA
 
 - `HSCA_data/` — Directories for storing and loading processed objects when running the HSCA code scripts  
 
