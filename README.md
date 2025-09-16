@@ -58,9 +58,12 @@ The HSCA repository is organized as follows:
 
 - `LICENSE` — License information  
 
-- `README` — Main documentation  
+- `README` — Main documentation
 
----
+## Mapping new datasets to HSCA
+
+Coming soon.
+
 
 ## Data Availability
 
