@@ -19,3 +19,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+**Note:** Some parts of this repository, specifically the HSCA mapping notebooks,
+are adapted from the scArches HLCA mapping tutorial by Mohammad Lotfollahi and Theislab,
+which is licensed under the BSD 3-Clause License. The full BSD license text is included
+directly at the top of the notebook.
